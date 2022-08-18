@@ -16,9 +16,19 @@ This is the getting orientation guide to the massive set of repositories that ar
 1. [MINT TestCases](https://github.com/CIDARLAB/MINT-TestCases) - Repository of the MINT Test Cases used for testing the MINT Compiler
 
 ### How to Build
+Since there are there many packages in the project, building this project is going to be a pain. Use the docker to complete builds, but please be aware that this can take a substantial amount of time to build and takes ~40Gb to run. 
 
-Since there are there many packages in the project, building this project is going to be a pain. Use the docker to complete builds, but please be aware that this can take a substantial amount of time to build.
+### Cloning
+`git clone --recursive https://github.com/NonaSoftware/Neptune.git`
 
+### Docker Instructions
+1) To begin building, you'll need to have installed (Docker)[https://docs.docker.com/desktop/install/]
+1) Install [Docker Compose](https://docs.docker.com/compose/install/)
+2) Clone this repository 
+3) Run `docker-compose up --build` in the root directory of this repo
+4) Open Neptune web interface at http://localhost:8080
+
+### Non-Docker Instructions
 TBA Rest of the guide...
 
 ### Contact

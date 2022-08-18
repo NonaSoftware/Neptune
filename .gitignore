@@ -247,7 +247,7 @@ primitives/dist/*
 data/
 result/
 
-#Mac Crap
-.*
+# Mac
 *~
 *DS_Store*
+!.github/workflows/*
